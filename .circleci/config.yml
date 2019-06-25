@@ -19,7 +19,7 @@ jobs:
           command: npm test
   deploy:
     docker:
-      - image: alpine:3.7
+      - image: circleci/node:10.15.3
     environment:
       HEROKU_API_KEY: MY_SECRET_KEY
       HEROKU_APP_NAME: real-greetings-api
