@@ -5,6 +5,6 @@ describe("my awesome service", () => {
   it("should GET a greeting", () => {
     return request(app)
       .get("/")
-      .expect("Hello Errybody!");
+      .expect("Hello Errybody!!!!!");
   });
 });
